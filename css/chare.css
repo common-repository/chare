@@ -1,0 +1,245 @@
+@font-face {
+
+	font-family: 'Avenir LT Std Medium';
+
+	src: url('../fonts/AvenirLTStd-Medium.eot');
+
+	src: url('../fonts/AvenirLTStd-Medium.eot?#iefix') format('embedded-opentype'),  url('../fonts/AvenirLTStd-Medium.woff2') format('woff2'),  url('../fonts/AvenirLTStd-Medium.woff') format('woff'),  url('../fonts/AvenirLTStd-Medium.ttf') format('truetype'),  url('../fonts/AvenirLTStd-Medium.svg#AvenirLTStd-Medium') format('svg');
+
+	font-weight: 500;
+
+	font-style: normal;
+
+}
+
+
+
+.chare-wrap {
+
+	max-width:700px;
+
+	font-family: 'Avenir LT Std Medium' !important;
+
+	padding-left:7%;
+
+}
+
+.chare-wrap h1 img {
+
+	float:left;
+
+	margin-right:8px;
+
+}
+
+.chare-wrap h1 {
+
+	font-family: 'Avenir LT Std Medium' !important;
+
+	font-size:4em !important;
+
+	color:#007AFF !important;
+
+	text-transform:uppercase !important;
+
+	min-height:66px;
+
+	line-height:66px;
+
+}
+
+.chare-plugin-form label {
+
+	color:#666666 !important;
+
+	font-size:1.5em !important;
+
+	font-family: 'Avenir LT Std Medium' !important;
+
+	padding:32px 0 5px;
+
+	display:block;
+
+}
+
+.chare-plugin-form input[type=text]{
+
+	width:100%;
+
+	height:44px;
+
+	border:#999999 solid 1px !important;
+
+}
+
+.chare-plugin-form .submit {
+
+	height:50px;
+
+}
+
+.chare-plugin-form input[type=submit] {
+
+	float:right;
+
+	background:#007AFF !important;
+
+	border:none;
+
+	border-radius:0;
+
+	font-size:2em !important;
+
+	color:#FFFFFF !important;
+
+	height:50px;
+
+	padding:0 40px;
+
+}
+
+.chare-mobile-apps:after, .chare-mobile-apps:before {
+
+	clear:both;
+
+	display:block;
+
+	content:" ";
+
+}
+
+.chare-mobile-apps {
+
+	text-align:center !important!important;
+
+	padding:30px 0;
+
+}
+
+.chare-mobile-apps li {
+
+	display:inline-block !important;
+
+	list-style:none;
+
+}
+
+.toolouter {
+
+	position:relative;
+
+	display:inline-block !important;
+
+}
+
+.toolouter .tooltips {
+
+	position:absolute;
+
+	background:rgba(0,0,0,0.72) !important;
+
+	bottom:28px;
+
+	left:-9px;
+
+	width:200px;
+
+	color:#FFFFFF !important;
+
+	border:none !important;
+
+	padding:8px 10px 10px;
+
+	-webkit-transition: all .1s ease-in;
+
+	-moz-transition: all .1s ease-in;
+
+	-o-transition: all .1s ease-in;
+
+     transition: all .1fs ease-in;
+
+	 z-index:-1 !important;
+
+	opacity:0 !important;
+
+}
+
+.toolouter:hover .tooltips {
+
+	opacity:1;
+
+	z-index:20;
+
+}
+
+.toolouter .tooltips:after {
+
+	border-bottom:transparent solid 8px !important;
+
+	border-right:transparent solid 8px !important;
+
+	border-left:transparent solid 8px !important;
+
+	border-top:rgba(0,0,0,0.72) solid 8px !important;
+
+	display:block;
+
+	content:" ";
+
+	width:0;
+
+	height:0;
+
+	position:absolute;
+
+	bottom:-16px;
+
+}
+
+.toolouter .tooltips p {
+
+	margin:0;
+
+}
+
+.toolouter .quehelp {
+
+	width:17px;
+
+	height:17px;
+
+	line-height:19px;
+
+	font-family: 'Avenir LT Std Medium' !important;
+
+	font-weight:bold !important;
+
+	background:#007AFF !important;
+
+	color:#FFFFFF !important;
+
+	font-size:17px !important;
+
+	-webkit-border-radius: 666em;
+
+	-moz-border-radius: 666em;
+
+	border-radius: 666em;
+
+	display:block;
+
+	text-align:center !important;
+
+	cursor:pointer;
+
+	position:relative;
+
+	z-index:24;
+
+}
+
+.btnoption .toolouter .quehelp:hover {
+
+	background-color:#008CFF !important;
+
+}
